@@ -9,7 +9,8 @@ function findLongestWordLength(str) {
       maxLength = words[i].length;
     }
   }
-  return "Longest word has " + maxLength + " characters.";
+
+  return  `The longest word is ${words}, and has ${maxLength} characters`;
 }
 
 function resetButton() { 
