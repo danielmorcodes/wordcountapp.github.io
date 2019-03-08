@@ -10,7 +10,7 @@ function findLongestWordLength(str) {
     }
   }
 
-  return  `The longest word is ${words}, and has ${maxLength} characters`;
+  return  `The longest word has ${maxLength} characters`;
 }
 
 function resetButton() { 
@@ -23,6 +23,8 @@ function findLenButton() {
   const val = document.getElementById("text").value; // get the value from your text box here
   
   document.getElementById("output").value = findLongestWordLength(val); // displays the result in the output box
+
+
 
 }
 
